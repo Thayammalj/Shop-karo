@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <img src="logo.jpeg" width="300px" height="300px">
+    <input type="text" placeholder="username" class="input"/>
+    <input type="password" placeholder="password" class="input" />
+    <div class="parent">
+      <div>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">Rebember me</label>
+      </div>
+      <a href="#">Forget?</a>
+    </div>
+    <button onclick="location.href='home.html'">Login</button>
+    <style>
+        .parent{
+        display:flex;
+            width: 220px;
+            justify-content: space-between;
+        }
+        button{
+            width: 200px;
+height: 50;
+            padding:20px;
+            background-color: rgb(77, 149, 244);
+        }
+      body {
+      display:flex;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .input {
+        padding: 10px;
+        width: 200px;
+        background-color: hsl(150, 8%, 90%);
+      }
+    </style>
+  </body>
+</html>
