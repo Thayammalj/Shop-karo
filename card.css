@@ -3,20 +3,312 @@
     width: 200px;
     height: 300px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items:column;
+    flex-direction:column;
     background-color: hsl(221, 60%, 60%);
-    box-shadow: rgba(225, 229, 234, 0.2) 0px 8px 24px;
+    box-shadow: hsla(213, 59%, 42%, 0.2) 0px 8px 24px;
     margin: 10px;
     padding: 10px;
     object-fit: cover;
     overflow: hidden;
 }
 .card img{
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:200px;
+
 }
+#e{
+    border-radius: 460px;
+}
+#h{
+        background-color: #966bbc;
+        height: 30px;
+        width:100%;
+    
+}
+#h ul{
+ margin-top: 25px;
+ padding: 5px;
+
+}
+#h ul li{
+    display: inline;
+    margin-right: 100px;
+
+}
+#h ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.import-box{
+float: right;
+width: 200px;
+height: 50px;
+align-items: center;
+}
+.off{
+    display: flex;
+     width: 100%;
+            height: auto;
+            align-items: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color: hwb(248 71% 5%);
+}
+.ffo{
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #6330da;
+    gap: 10px;
+    color: gold;
 
 
+}
+h3{
+
+    color: rgb(16, 16, 176);
+    text-align: center;
+}
+    .mbl{
+    display: flex;
+     width: 100%;
+            height: auto;
+            align-items: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color: rgb(228, 237, 244);
+
+}
+.mbls{
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b365da;
+    gap: 10px;
+    color: gold;
+
+}
+.elct{
+    display: flex;
+     width: 100%;
+            height: auto;
+            align-items: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color: hsl(283, 84%, 83%);
 
 
+}
+.elcts{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #b365da;
+    gap: 10px;
+    color: gold;
+}
+h1{
+    color:blueviolet;
+}
+.elcts img{
+    padding: 10px; ;
+}
+.next{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:rgb(247, 247, 27);
+
+
+}
+h2{
+    color: orange;
+    text-align: center;
+}
+.nt{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:orange;
+    ;
+    gap: 10px;
+    color:white;
+    text-align: center;
+}
+.next2{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:rgb(247, 247, 27);
+
+
+}
+.tn{
+   width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:orange;
+    gap: 10px;
+    color:white;
+} 
+.meds{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:#7ab0cf;
+
+}
+.med{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    gap: 10px;
+    color:black;
+    text-align: center;
+}
+.h5{
+    color: black;
+}
+.toys{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:palevioletred;
+
+}
+.toy{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    gap: 10px;
+    color:black;
+    text-align: center;
+}   
+.toys2{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:palevioletred;
+
+}
+.toy2{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    gap: 10px;
+    color:black;
+    text-align: center;
+}
+.toys3{
+    display: flex;
+    width: 100%;
+            height: auto;
+            align-items:center;
+            flex-direction:row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: rgba(227, 232, 238, 0.2) 0px 8px 24px;
+            padding: 10px;
+            background-color:palevioletred;
+
+}
+.toy3{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    gap: 10px;
+    color:black;
+    text-align: center;
+}
+h4{
+    color: rgb(16, 56, 219);
+    text-align: center;
+}
